@@ -68,7 +68,7 @@ After rejecting Mileage and removing it from the predictors, the R^2 value of th
 
 We created an algorithm using our linear regression equation coefficients to estimate the potential value of each Honda Vezel in our dataset. 
 We subtracted the listed price from the predicted price to get the net difference in price. If the result is positive, the value of the car is worth more than its listed price and hence it is a good deal. We can input a budget of $60,000, and our model will return the car that has the most bang for our buck.
-Within the dataset, car 19 has the largest positive value differential to its price. We will actually be getting a significant bargain, almost 4200 based on the variables we analysed in the linear regression model. \
+Within the dataset, car 19 has the largest positive value differential to its price. We will actually be getting a significant bargain, almost $4,200 based on the variables we analysed in the linear regression model. 
 Therefore, we have concluded that car 19 is the best value car for us to buy using our linear regression model. 
 
 Our model is limited in the way that is that it cannot predict the price other types of cars well as they have different specifications. To fit this model to other cars, we can train the model using the data of that model.
